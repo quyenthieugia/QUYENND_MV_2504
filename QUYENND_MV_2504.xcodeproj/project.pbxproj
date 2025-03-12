@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65AA58092D813F2A0097F1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA57FF2D813F2A0097F1CD /* AppDelegate.swift */; };
+		65AA580A2D813F2A0097F1CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58062D813F2A0097F1CD /* SceneDelegate.swift */; };
+		65AA580B2D813F2A0097F1CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58072D813F2A0097F1CD /* ViewController.swift */; };
+		65AA580C2D813F2A0097F1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58002D813F2A0097F1CD /* Assets.xcassets */; };
+		65AA580E2D813F2A0097F1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58032D813F2A0097F1CD /* LaunchScreen.storyboard */; };
+		65AA580F2D813F2A0097F1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58052D813F2A0097F1CD /* Main.storyboard */; };
+		65AA581A2D813FA80097F1CD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58192D813FA80097F1CD /* HomeViewController.xib */; };
+		65AA581B2D813FA80097F1CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58182D813FA80097F1CD /* HomeViewController.swift */; };
+		65AA58222D81402A0097F1CD /* MavenPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA581C2D81402A0097F1CD /* MavenPro-Black.ttf */; };
+		65AA58232D81402A0097F1CD /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA581F2D81402A0097F1CD /* MavenPro-Medium.ttf */; };
+		65AA58242D81402A0097F1CD /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58202D81402A0097F1CD /* MavenPro-Regular.ttf */; };
+		65AA58252D81402A0097F1CD /* MavenPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA581E2D81402A0097F1CD /* MavenPro-ExtraBold.ttf */; };
+		65AA58262D81402A0097F1CD /* MavenPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58212D81402A0097F1CD /* MavenPro-SemiBold.ttf */; };
+		65AA58272D81402A0097F1CD /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA581D2D81402A0097F1CD /* MavenPro-Bold.ttf */; };
+		65AA582A2D8140860097F1CD /* Skranji-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58292D8140860097F1CD /* Skranji-Regular.ttf */; };
+		65AA582B2D8140860097F1CD /* Skranji-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58282D8140860097F1CD /* Skranji-Bold.ttf */; };
+		65AA582D2D8140A00097F1CD /* UIFonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA582C2D8140960097F1CD /* UIFonts+Extensions.swift */; };
+		65AA58302D8142EC0097F1CD /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA582E2D8142EC0097F1CD /* ChooseViewController.swift */; };
+		65AA58312D8142EC0097F1CD /* ChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AA582F2D8142EC0097F1CD /* ChooseViewController.xib */; };
+		65AA58342D8143040097F1CD /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AA58332D8143040097F1CD /* MineViewController.xib */; };
+		65AA58352D8143040097F1CD /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58322D8143040097F1CD /* MineViewController.swift */; };
+		65AA58372D81432C0097F1CD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58362D81432B0097F1CD /* UIView+Extensions.swift */; };
+		65AA58392D8143810097F1CD /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58382D8143780097F1CD /* UIWindow+Extensions.swift */; };
+		65AA583B2D8146570097F1CD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA583A2D8146500097F1CD /* BaseController.swift */; };
+		65AA583D2D8147E00097F1CD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA583C2D8147DC0097F1CD /* UIColor+Extensions.swift */; };
+		B35D1481CBA5C6A1D29D885A /* Pods_QUYENND_MV_2504.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE1CF2414E9FBAA90895667 /* Pods_QUYENND_MV_2504.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DE1CF2414E9FBAA90895667 /* Pods_QUYENND_MV_2504.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QUYENND_MV_2504.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA40D3B6929A8D6086743A /* Pods-QUYENND_MV_2504.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QUYENND_MV_2504.release.xcconfig"; path = "Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504.release.xcconfig"; sourceTree = "<group>"; };
+		65AA57C72D813DE90097F1CD /* QUYENND_MV_2504.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUYENND_MV_2504.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AA57FF2D813F2A0097F1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AA58002D813F2A0097F1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AA58012D813F2A0097F1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AA58022D813F2A0097F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AA58042D813F2A0097F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AA58062D813F2A0097F1CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65AA58072D813F2A0097F1CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65AA58182D813FA80097F1CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		65AA58192D813FA80097F1CD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		65AA581C2D81402A0097F1CD /* MavenPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Black.ttf"; sourceTree = "<group>"; };
+		65AA581D2D81402A0097F1CD /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		65AA581E2D81402A0097F1CD /* MavenPro-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-ExtraBold.ttf"; sourceTree = "<group>"; };
+		65AA581F2D81402A0097F1CD /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		65AA58202D81402A0097F1CD /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		65AA58212D81402A0097F1CD /* MavenPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		65AA58282D8140860097F1CD /* Skranji-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Skranji-Bold.ttf"; sourceTree = "<group>"; };
+		65AA58292D8140860097F1CD /* Skranji-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Skranji-Regular.ttf"; sourceTree = "<group>"; };
+		65AA582C2D8140960097F1CD /* UIFonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Extensions.swift"; sourceTree = "<group>"; };
+		65AA582E2D8142EC0097F1CD /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		65AA582F2D8142EC0097F1CD /* ChooseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseViewController.xib; sourceTree = "<group>"; };
+		65AA58322D8143040097F1CD /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		65AA58332D8143040097F1CD /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		65AA58362D81432B0097F1CD /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		65AA58382D8143780097F1CD /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
+		65AA583A2D8146500097F1CD /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		65AA583C2D8147DC0097F1CD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E9530B750A39DCA7FE9B0D35 /* Pods-QUYENND_MV_2504.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QUYENND_MV_2504.debug.xcconfig"; path = "Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AA57C42D813DE90097F1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D1481CBA5C6A1D29D885A /* Pods_QUYENND_MV_2504.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6640CBBA08BA7BAC9B07FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9530B750A39DCA7FE9B0D35 /* Pods-QUYENND_MV_2504.debug.xcconfig */,
+				52FA40D3B6929A8D6086743A /* Pods-QUYENND_MV_2504.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		594F59FD5BB2E5D8D60A07BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1CF2414E9FBAA90895667 /* Pods_QUYENND_MV_2504.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65AA57BE2D813DE90097F1CD = {
+			isa = PBXGroup;
+			children = (
+				65AA58082D813F2A0097F1CD /* QUYENND_MV_2504 */,
+				65AA57C82D813DE90097F1CD /* Products */,
+				3A6640CBBA08BA7BAC9B07FD /* Pods */,
+				594F59FD5BB2E5D8D60A07BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65AA57C82D813DE90097F1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AA57C72D813DE90097F1CD /* QUYENND_MV_2504.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AA58082D813F2A0097F1CD /* QUYENND_MV_2504 */ = {
+			isa = PBXGroup;
+			children = (
+				65AA58142D813F660097F1CD /* Resource */,
+				65AA58132D813F530097F1CD /* Extensions */,
+				65AA58122D813F480097F1CD /* Models */,
+				65AA58112D813F3E0097F1CD /* Views */,
+				65AA58102D813F370097F1CD /* Controlles */,
+				65AA57FF2D813F2A0097F1CD /* AppDelegate.swift */,
+				65AA58002D813F2A0097F1CD /* Assets.xcassets */,
+				65AA58012D813F2A0097F1CD /* Info.plist */,
+				65AA58032D813F2A0097F1CD /* LaunchScreen.storyboard */,
+				65AA58052D813F2A0097F1CD /* Main.storyboard */,
+				65AA58062D813F2A0097F1CD /* SceneDelegate.swift */,
+				65AA58072D813F2A0097F1CD /* ViewController.swift */,
+			);
+			path = QUYENND_MV_2504;
+			sourceTree = "<group>";
+		};
+		65AA58102D813F370097F1CD /* Controlles */ = {
+			isa = PBXGroup;
+			children = (
+				65AA583A2D8146500097F1CD /* BaseController.swift */,
+				65AA58182D813FA80097F1CD /* HomeViewController.swift */,
+				65AA58192D813FA80097F1CD /* HomeViewController.xib */,
+				65AA582E2D8142EC0097F1CD /* ChooseViewController.swift */,
+				65AA582F2D8142EC0097F1CD /* ChooseViewController.xib */,
+				65AA58322D8143040097F1CD /* MineViewController.swift */,
+				65AA58332D8143040097F1CD /* MineViewController.xib */,
+			);
+			path = Controlles;
+			sourceTree = "<group>";
+		};
+		65AA58112D813F3E0097F1CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65AA58122D813F480097F1CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65AA58132D813F530097F1CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65AA583C2D8147DC0097F1CD /* UIColor+Extensions.swift */,
+				65AA58382D8143780097F1CD /* UIWindow+Extensions.swift */,
+				65AA58362D81432B0097F1CD /* UIView+Extensions.swift */,
+				65AA582C2D8140960097F1CD /* UIFonts+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65AA58142D813F660097F1CD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				65AA58152D813F710097F1CD /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		65AA58152D813F710097F1CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				65AA58282D8140860097F1CD /* Skranji-Bold.ttf */,
+				65AA58292D8140860097F1CD /* Skranji-Regular.ttf */,
+				65AA581C2D81402A0097F1CD /* MavenPro-Black.ttf */,
+				65AA581D2D81402A0097F1CD /* MavenPro-Bold.ttf */,
+				65AA581E2D81402A0097F1CD /* MavenPro-ExtraBold.ttf */,
+				65AA581F2D81402A0097F1CD /* MavenPro-Medium.ttf */,
+				65AA58202D81402A0097F1CD /* MavenPro-Regular.ttf */,
+				65AA58212D81402A0097F1CD /* MavenPro-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AA57C62D813DE90097F1CD /* QUYENND_MV_2504 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AA57DA2D813DEA0097F1CD /* Build configuration list for PBXNativeTarget "QUYENND_MV_2504" */;
+			buildPhases = (
+				BDC1E4AAA1CCAFA01A2C62CD /* [CP] Check Pods Manifest.lock */,
+				65AA57C32D813DE90097F1CD /* Sources */,
+				65AA57C42D813DE90097F1CD /* Frameworks */,
+				65AA57C52D813DE90097F1CD /* Resources */,
+				AA36F8B59F0D041F592AA216 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUYENND_MV_2504;
+			productName = QUYENND_MV_2504;
+			productReference = 65AA57C72D813DE90097F1CD /* QUYENND_MV_2504.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AA57BF2D813DE90097F1CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					65AA57C62D813DE90097F1CD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 65AA57C22D813DE90097F1CD /* Build configuration list for PBXProject "QUYENND_MV_2504" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AA57BE2D813DE90097F1CD;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 65AA57C82D813DE90097F1CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AA57C62D813DE90097F1CD /* QUYENND_MV_2504 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AA57C52D813DE90097F1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA580C2D813F2A0097F1CD /* Assets.xcassets in Resources */,
+				65AA58342D8143040097F1CD /* MineViewController.xib in Resources */,
+				65AA580E2D813F2A0097F1CD /* LaunchScreen.storyboard in Resources */,
+				65AA580F2D813F2A0097F1CD /* Main.storyboard in Resources */,
+				65AA58222D81402A0097F1CD /* MavenPro-Black.ttf in Resources */,
+				65AA58232D81402A0097F1CD /* MavenPro-Medium.ttf in Resources */,
+				65AA58242D81402A0097F1CD /* MavenPro-Regular.ttf in Resources */,
+				65AA582A2D8140860097F1CD /* Skranji-Regular.ttf in Resources */,
+				65AA582B2D8140860097F1CD /* Skranji-Bold.ttf in Resources */,
+				65AA58252D81402A0097F1CD /* MavenPro-ExtraBold.ttf in Resources */,
+				65AA58262D81402A0097F1CD /* MavenPro-SemiBold.ttf in Resources */,
+				65AA58272D81402A0097F1CD /* MavenPro-Bold.ttf in Resources */,
+				65AA581A2D813FA80097F1CD /* HomeViewController.xib in Resources */,
+				65AA58312D8142EC0097F1CD /* ChooseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA36F8B59F0D041F592AA216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC1E4AAA1CCAFA01A2C62CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QUYENND_MV_2504-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AA57C32D813DE90097F1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA58392D8143810097F1CD /* UIWindow+Extensions.swift in Sources */,
+				65AA58092D813F2A0097F1CD /* AppDelegate.swift in Sources */,
+				65AA583B2D8146570097F1CD /* BaseController.swift in Sources */,
+				65AA580A2D813F2A0097F1CD /* SceneDelegate.swift in Sources */,
+				65AA580B2D813F2A0097F1CD /* ViewController.swift in Sources */,
+				65AA58352D8143040097F1CD /* MineViewController.swift in Sources */,
+				65AA581B2D813FA80097F1CD /* HomeViewController.swift in Sources */,
+				65AA582D2D8140A00097F1CD /* UIFonts+Extensions.swift in Sources */,
+				65AA583D2D8147E00097F1CD /* UIColor+Extensions.swift in Sources */,
+				65AA58372D81432C0097F1CD /* UIView+Extensions.swift in Sources */,
+				65AA58302D8142EC0097F1CD /* ChooseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65AA58032D813F2A0097F1CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AA58022D813F2A0097F1CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65AA58052D813F2A0097F1CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AA58042D813F2A0097F1CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AA57DB2D813DEA0097F1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9530B750A39DCA7FE9B0D35 /* Pods-QUYENND_MV_2504.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5226Q5AW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QUYENND_MV_2504/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lasbom.QUYENND-MV-2504";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AA57DC2D813DEA0097F1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FA40D3B6929A8D6086743A /* Pods-QUYENND_MV_2504.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5226Q5AW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QUYENND_MV_2504/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lasbom.QUYENND-MV-2504";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65AA57DD2D813DEA0097F1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65AA57DE2D813DEA0097F1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AA57C22D813DE90097F1CD /* Build configuration list for PBXProject "QUYENND_MV_2504" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AA57DD2D813DEA0097F1CD /* Debug */,
+				65AA57DE2D813DEA0097F1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AA57DA2D813DEA0097F1CD /* Build configuration list for PBXNativeTarget "QUYENND_MV_2504" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AA57DB2D813DEA0097F1CD /* Debug */,
+				65AA57DC2D813DEA0097F1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AA57BF2D813DE90097F1CD /* Project object */;
+}
