@@ -5,6 +5,7 @@ target 'QUYENND_MV_2504' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Toast-Swift', '~> 5.0.1'
+  pod 'FSPagerView'
 
   # Pods for QUYENND_MV_2503
 

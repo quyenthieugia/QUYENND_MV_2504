@@ -32,6 +32,9 @@
 		65AA58392D8143810097F1CD /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA58382D8143780097F1CD /* UIWindow+Extensions.swift */; };
 		65AA583B2D8146570097F1CD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA583A2D8146500097F1CD /* BaseController.swift */; };
 		65AA583D2D8147E00097F1CD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA583C2D8147DC0097F1CD /* UIColor+Extensions.swift */; };
+		8A5FDB0B2D8183A700D2DAED /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5FDB0A2D8183A700D2DAED /* CardCell.xib */; };
+		8A5FDB0C2D8183A700D2DAED /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5FDB092D8183A700D2DAED /* CardCell.swift */; };
+		8A5FDB0E2D827E9A00D2DAED /* TarotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5FDB0D2D827E9A00D2DAED /* TarotCard.swift */; };
 		B35D1481CBA5C6A1D29D885A /* Pods_QUYENND_MV_2504.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE1CF2414E9FBAA90895667 /* Pods_QUYENND_MV_2504.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,9 @@
 		65AA58382D8143780097F1CD /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
 		65AA583A2D8146500097F1CD /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		65AA583C2D8147DC0097F1CD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		8A5FDB092D8183A700D2DAED /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		8A5FDB0A2D8183A700D2DAED /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		8A5FDB0D2D827E9A00D2DAED /* TarotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TarotCard.swift; path = QUYENND_MV_2504/TarotCard.swift; sourceTree = SOURCE_ROOT; };
 		E9530B750A39DCA7FE9B0D35 /* Pods-QUYENND_MV_2504.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QUYENND_MV_2504.debug.xcconfig"; path = "Target Support Files/Pods-QUYENND_MV_2504/Pods-QUYENND_MV_2504.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +148,8 @@
 				65AA58192D813FA80097F1CD /* HomeViewController.xib */,
 				65AA582E2D8142EC0097F1CD /* ChooseViewController.swift */,
 				65AA582F2D8142EC0097F1CD /* ChooseViewController.xib */,
+				8A5FDB092D8183A700D2DAED /* CardCell.swift */,
+				8A5FDB0A2D8183A700D2DAED /* CardCell.xib */,
 				65AA58322D8143040097F1CD /* MineViewController.swift */,
 				65AA58332D8143040097F1CD /* MineViewController.xib */,
 			);
@@ -158,6 +166,7 @@
 		65AA58122D813F480097F1CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8A5FDB0D2D827E9A00D2DAED /* TarotCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -264,6 +273,7 @@
 				65AA58222D81402A0097F1CD /* MavenPro-Black.ttf in Resources */,
 				65AA58232D81402A0097F1CD /* MavenPro-Medium.ttf in Resources */,
 				65AA58242D81402A0097F1CD /* MavenPro-Regular.ttf in Resources */,
+				8A5FDB0B2D8183A700D2DAED /* CardCell.xib in Resources */,
 				65AA582A2D8140860097F1CD /* Skranji-Regular.ttf in Resources */,
 				65AA582B2D8140860097F1CD /* Skranji-Bold.ttf in Resources */,
 				65AA58252D81402A0097F1CD /* MavenPro-ExtraBold.ttf in Resources */,
@@ -323,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5FDB0E2D827E9A00D2DAED /* TarotCard.swift in Sources */,
 				65AA58392D8143810097F1CD /* UIWindow+Extensions.swift in Sources */,
 				65AA58092D813F2A0097F1CD /* AppDelegate.swift in Sources */,
 				65AA583B2D8146570097F1CD /* BaseController.swift in Sources */,
@@ -334,6 +345,7 @@
 				65AA583D2D8147E00097F1CD /* UIColor+Extensions.swift in Sources */,
 				65AA58372D81432C0097F1CD /* UIView+Extensions.swift in Sources */,
 				65AA58302D8142EC0097F1CD /* ChooseViewController.swift in Sources */,
+				8A5FDB0C2D8183A700D2DAED /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5226Q5AW7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QUYENND_MV_2504/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -397,7 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5226Q5AW7;
+				DEVELOPMENT_TEAM = B2546FL4T8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QUYENND_MV_2504/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

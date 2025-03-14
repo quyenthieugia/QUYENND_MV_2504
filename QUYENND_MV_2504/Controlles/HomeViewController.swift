@@ -94,10 +94,16 @@ class HomeViewController: BaseViewController {
     }
     @objc private func positiveButtonTapped() {
         print("Overly Positive mode selected!")
+        let chooseVC = ChooseViewController()
+        chooseVC.listTarotCard = listTarotCardFunny
+        chooseVC.nameModeSelect = "Overly Positive"
+        navigationController?.pushViewController(chooseVC, animated: true)
     }
     @objc private func goofyButtonTapped() {
         print("Goofy mode selected!")
-        let goofyVC = ChooseViewController()
-        navigationController?.pushViewController(goofyVC, animated: true)
+        let chooseVC = ChooseViewController()
+        chooseVC.listTarotCard = listTarotCard
+        chooseVC.nameModeSelect = "Goofy"
+        navigationController?.pushViewController(chooseVC, animated: true)
     }
 }
